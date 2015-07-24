@@ -61,7 +61,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-lg-8 col-sm-8" id="regForm">
-				<form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
+				<form action="php/remote.php" method="post">
 					<p class="lead">REGISTRATI GRATUITAMENTE.</p>
 					<div class="form-group">
 						<label for="inputName">Nome: </label>
@@ -97,6 +97,9 @@
 				</form>
 				<div id="dialog" title="Warning!"></div>
 			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<p id="faceLogin"><a href="#">Login con FACEBOOK</a></p>
+			</div>
 		</div>
 	</div>
 	<br>
@@ -111,7 +114,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	
+
     <script src="jquery-ui/external/jquery/jquery.js"></script>
 	<script src="jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
