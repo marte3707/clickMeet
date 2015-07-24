@@ -44,6 +44,11 @@ body {
 	color: gray;
 	font-size: 13px;
 }
-nav{
+
+nav {
 	height: 90px;
+}
+
+.form-control {
+	width: 350px;
 }
