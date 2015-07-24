@@ -1,5 +1,5 @@
 // # Sul DOM Ready
-$( function() {
+$ function() {
   
   // # Costruisci il dialog Ui
   $("#dialog").dialog({
