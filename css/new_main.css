@@ -18,10 +18,20 @@
 }
 
 body {
-	background-color: #BCCBF2;
+	/*background: -webkit-linear-gradient(#BCCBF2 , #e1afed); *//* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#BCCBF2, #e1afed);*/ /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#BCCBF2, #e1afed);*/ /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#BCCBF2 ,#e1afed );*/ /* Standard syntax */ 
+	/*background-color: #BCCBF2;*/
 	font-family: 'Josefin Slab', serif;
 	margin: 0;
  	padding: 0;
+ 	/*background: url(../img/form_bg.jpg) no-repeat center center fixed; */
+ 	background-image: url("../img/form_bg3.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .logoText {
@@ -37,9 +47,9 @@ body {
 }
 
 .text-right{
-	margin-top: 50px;
+	margin-top:51px;
 	position: relative;
-	left: -75px;
+	left: -79px;
 	top: -10px;
 	color: gray;
 	font-size: 13px;
@@ -51,4 +61,47 @@ nav {
 
 .form-control {
 	width: 350px;
+}
+
+
+.form-group input {
+	border-radius: 18px;
+}
+
+form {
+	background-color: whitesmoke;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 16px; 
+}
+
+#form1 {
+	position: relative;
+	right: 50px;
+}
+
+#form1 .form-group, .radio, .move  {
+	position: relative;
+	left: 50px;
+}
+
+#form1 .move2 {
+	position: relative;
+	left: 67px;
+	bottom: 20px;
+}
+
+#form1 #sendForm {
+	position: relative;
+	bottom: 30px;
+	color:#F26D6D;
+	font-weight: bolder;
+}
+
+#form1 .lead {
+	font-family: 'Oswald', sans-serif;
+	margin-left: 60px;
+	position: relative;
+	top: 8px;
+	letter-spacing: 2px;
+	padding: 10px;
 }
