@@ -5,6 +5,24 @@
   src: local('Oswald Bold'), local('Oswald-Bold'), url(http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
+body {
+	/*background: -webkit-linear-gradient(#BCCBF2 , #e1afed); *//* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#BCCBF2, #e1afed);*/ /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#BCCBF2, #e1afed);*/ /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#BCCBF2 ,#e1afed );*/ /* Standard syntax */ 
+	/*background-color: #BCCBF2;*/
+	font-family: 'Josefin Slab', serif;
+	margin: 0;
+ 	padding: 0px;
+ 	/*background: url(../img/form_bg.jpg) no-repeat center center fixed; */
+ 	background-image: url("../img/bgBody.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
 #barraNavigazione {
 	margin-top: 16px;;
 	
@@ -17,22 +35,6 @@
 	margin-left: 4px;
 }
 
-body {
-	/*background: -webkit-linear-gradient(#BCCBF2 , #e1afed); *//* For Safari 5.1 to 6.0 */
-	/*background: -o-linear-gradient(#BCCBF2, #e1afed);*/ /* For Opera 11.1 to 12.0 */
-	/*background: -moz-linear-gradient(#BCCBF2, #e1afed);*/ /* For Firefox 3.6 to 15 */
-	/*background: linear-gradient(#BCCBF2 ,#e1afed );*/ /* Standard syntax */ 
-	/*background-color: #BCCBF2;*/
-	font-family: 'Josefin Slab', serif;
-	margin: 0;
- 	padding: 0;
- 	/*background: url(../img/form_bg.jpg) no-repeat center center fixed; */
- 	background-image: url("../img/form_bg3.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
 .logoText {
 	text-align: center;
@@ -86,8 +88,8 @@ form {
 
 #form1 .move2 {
 	position: relative;
-	left: 67px;
-	bottom: 20px;
+	left: 103px;
+	bottom: 33px;
 }
 
 #form1 #sendForm {
@@ -99,9 +101,49 @@ form {
 
 #form1 .lead {
 	font-family: 'Oswald', sans-serif;
-	margin-left: 60px;
+	margin-left: 42px;
 	position: relative;
 	top: 8px;
 	letter-spacing: 2px;
 	padding: 10px;
+}
+
+#ani1Par {
+	position: relative;
+	right: 277px;
+}
+
+#ani2Par {
+	position: relative;
+	right: 198px;
+}
+
+.selectMan {
+	background-color: #51BCDB;
+	width: 70px;
+	position: relative;
+	right: -5px;
+}
+
+.selectWoman {
+	background-color: pink;
+	width: 70px;
+	position: relative;
+	left: 68px;
+}
+
+#ani3Button {
+	display: none;
+	position: relative;
+	bottom: 80px;
+	left: 157px; 
+}
+
+.focusForm {
+	background-color: #000000;
+}
+
+#form1 input {
+	font-family:'Oswald';
+	color: #FF6600;
 }

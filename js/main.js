@@ -1,6 +1,12 @@
+
 // # Sul DOM Ready
 $( function() {
   
+  $(":checkbox").labelauty({
+    checked_label: "Accetto",
+    unchecked_label: "Non accetto"
+  });
+
   // # Costruisci il dialog Ui
   $("#dialog").dialog({
     resizable: false,
@@ -55,4 +61,62 @@ $( function() {
 
   });
   
+
+  //women
+  $('#ani1Par').click(function(event) {
+    event.preventDefault();
+    $('#imgWoman').toggleClass('selectWoman');
+    $('#imgMan').slideToggle(800);
+  });
+
+  //men
+ $('#ani2Par').click(function(event) {
+    event.preventDefault();
+    $('#imgMan').toggleClass('selectMan');
+    $('#imgWoman').slideToggle(800);
+
+  });
+
+
+ $('#sendForm').click(function(event) {
+    $('#ani3Button').toggle(600);
+ });
+
+
+//handler for women
+$("#ani1Par").click(function(){
+   var sexStatus = $(this).attr("data-sex");
+   if(sexStatus == "false"){
+     $(this).attr("data-sex","true");
+     var sex = 'f';
+   }else{
+     $(this).attr("data-sex","false");
+     $sex = '';
+   }
+   return sex;
+
+});
+
+//handler for men
+$("#ani1Par").click(function(){
+   var sexStatus = $(this).attr("data-sex");
+   if(sexStatus == "false"){
+      var sex = 'm';
+     $(this).attr("data-sex","true");
+   }else{
+     $(this).attr("data-sex","false");
+     $sex = '';
+     }
+
+   return sex;
+
+});
+
+
+$('#form1 .form-control').mouseover(function(event) {
+  $(this).addClass('focusForm').mouseout(function(event) {
+    $(this).removeClass('focusForm');
+  });;
+});
+
 });
