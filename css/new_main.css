@@ -61,6 +61,11 @@ nav {
 	height: 90px;
 }
 
+#barraNavigazione input {
+	font-size: 15px;
+	border-radius: 7px;
+}
+
 .form-control {
 	width: 350px;
 }
@@ -104,18 +109,18 @@ form {
 	margin-left: 42px;
 	position: relative;
 	top: 8px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	padding: 10px;
 }
 
 #ani1Par {
 	position: relative;
-	right: 277px;
+	right: 231px;
 }
 
 #ani2Par {
 	position: relative;
-	right: 198px;
+	right: 156px;
 }
 
 .selectMan {
@@ -123,6 +128,7 @@ form {
 	width: 70px;
 	position: relative;
 	right: -5px;
+	border-radius: 100px;
 }
 
 .selectWoman {
@@ -130,6 +136,7 @@ form {
 	width: 70px;
 	position: relative;
 	left: 68px;
+	border-radius: 50px;
 }
 
 #ani3Button {
@@ -147,3 +154,28 @@ form {
 	font-family:'Oswald';
 	color: #FF6600;
 }
+
+.desc {
+	font-size: 21px;
+    font-weight: bold;
+    width: 250px;
+    position: relative;
+    left: 566px;
+    top: 95px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+#hostess {
+	float: right;
+	position: relative;
+	top: 110px;
+	right: 45px;
+}
+
+#form1 {
+	margin-top: -62px;
+}
+

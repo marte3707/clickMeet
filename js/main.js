@@ -66,14 +66,14 @@ $( function() {
   $('#ani1Par').click(function(event) {
     event.preventDefault();
     $('#imgWoman').toggleClass('selectWoman');
-    $('#imgMan').slideToggle(800);
+    $('#imgMan').toggle("explode");
   });
 
   //men
  $('#ani2Par').click(function(event) {
     event.preventDefault();
     $('#imgMan').toggleClass('selectMan');
-    $('#imgWoman').slideToggle(800);
+    $('#imgWoman').toggle("pulsate");
 
   });
 
@@ -112,11 +112,42 @@ $("#ani1Par").click(function(){
 
 });
 
-
+//input animations
 $('#form1 .form-control').mouseover(function(event) {
   $(this).addClass('focusForm').mouseout(function(event) {
     $(this).removeClass('focusForm');
   });;
 });
+
+
+//scroll to top when click 'registrati'
+$('#sendForm').click(function() {
+  $("html,body").animate({
+    scrollTop: 0}
+    , 800);
+  return false;
+
+//get the Date from calendar
+var currentDate = $( "#datepicker" ).datepicker( "getDate" );
+
+});
+
+//set the checkbox to false
+$('#form1:checkbox').prop('checked', 'false');
+
+
+//little div with a description by input tag values
+$("#hostess").mouseover(function() {
+  $('#descrizione').html("<p> Compila questo breve form ed inizia a giocare! </p>" );
+  $('#hostess').unbind('mouseover');
+});
+$("#inputEmail").blur(function() {
+  $('#hostess, #descrizione').css('top','320px');
+  $('#descrizione').html("<p> Hai quasi finito " + $(inputName).val() + "!  <br />Scegli un Username ed una password </p>" );
+});
+
+
+
+
 
 });

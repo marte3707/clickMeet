@@ -62,19 +62,15 @@
 		</div>
 	</nav>
 
-	
+	<div id="bg"></div>
 	<br>
 	<br>
 	<br>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7 col-lg-7 col-sm-7" id="form1" >
-			<div id="assistente">
-				<div id="descrizione" class="desc">Ciao!</div>
-				<img src="img/hostessF.png" id="hostess" />
-			</div>
-				<form action="#" method="post" id="regForm">
-					<p class="lead" id="headerForm">REGISTRATI GRATUITAMENTE.</p> 
+			<div class="col-md-8 col-lg-8 col-sm-8" id="form1" >
+				<form action="php/remote.php" method="post" id="regForm">
+					<p class="lead" id="ani1">REGISTRATI GRATUITAMENTE.</p> 
 					<div class="form-group">
 						<label for="inputName">Nome: </label>
 							<input type="text" class="form-control" id="inputName" placeholder="Nome" name="inputName">
@@ -85,21 +81,12 @@
 					</div>
 					<div class="form-group">
 						<label for="inputDateOfBirth">Data di nascita: </label>
-						<input data-validation-format="dd/mm/yyyy" type="text" id="datepicker" data-validation="birthdate" class="form-control">
-						<script>
-							$(function() {
-							    $( "#datepicker" ).datepicker({
-							    	showAnim: "clip",
-							    	changeYear: true,
-							    	changeMonth: true,
-							    	dateFormat: "dd/mm/yy",
-							    	duration: 'slow',
-							    	yearRange:'1920:2015',
-							    	maxDate: -1
-							    });
-							   
+						  <script>
+							  $(function() {
+							    $( "#datepicker" ).datepicker();
 							  });
-						</script>
+						  </script>
+						  <input data-validation-format="dd/mm/yyyy" type="text" id="datepicker" data-validation="birthdate" class="form-control">
 					</div>
 					<div class="col-md-0 col-lg-0 col-sm-0 col-md-offset-6 col-lg-offset-6 col-ms-offset-6">
 						<p>
@@ -112,30 +99,27 @@
 						<label for="inputEmail">Email: </label>
 							<input type="email" class="form-control" id="inputEmail" placeholder="Email" name="inputEmail">
 					</div>
-					<br />
-					<p class="lead">Account</p>
 					<div class="form-group">
 						<label for="inputName">Username: </label>
 							<input type="text" title="min. 4, max. 20 caratteri " class="form-control" id="inputUsername" placeholder="username" name="inputUsername">
 					</div>
 					<div class="form-group">
 						<label for="inputPassword">Password: </label>
-							<input type="password" title="min 8 caratteri" class="form-control" id="inputPassword" placeholder="Password" name="inputPassword">
+							<input type="password" class="form-control" id="inputPassword" placeholder="Password" name="inputPassword">
 					</div>
 					<div class="form-group">
 						<label for="inputRepeatPassword">Repeat password: </label>
 							<input type="password" class="form-control" id="inputRepeatPassword" placeholder="Repeat Password" name="inputRepeatPassword">
 					</div>
-					<br />
-					<input type="checkbox" class="move" checked=""> <p class="move move2">Accetto l'informativa.</p>
+					<input type="checkbox" class="move" checked="false"> <p class="move move2">Accetto l'informativa.</p>
 					<br>
 					<button type="submit" class="btn btn-default move" id="sendForm">Registrati</button>
 					<div id="ani3Button"><img src="img/couple.png" /></div>
 				</form>
 				<div id="dialog" title="Warning!"></div>
 			</div>
-			<div class="col-md-5 col-lg-5 col-sm-5">
-
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<p id="faceLogin" style="display:none"><a href="#">Login con FACEBOOK</a></p>
 			</div>
 		</div>
 	</div>
