@@ -1,2 +1,0 @@
-# clickMeet
-clickMeet team

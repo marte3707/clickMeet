@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+	/*background: -webkit-linear-gradient(#BCCBF2 , #e1afed); *//* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#BCCBF2, #e1afed);*/ /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#BCCBF2, #e1afed);*/ /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#BCCBF2 ,#e1afed );*/ /* Standard syntax */ 
+	/*background-color: #BCCBF2;*/
+	font-family: 'Josefin Slab', serif;
+	margin: 0;
+ 	padding: 0px;
+ 	/*background: url(../img/form_bg.jpg) no-repeat center center fixed; */
+ 	background-image: url("../img/bgBody.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#barraNavigazione {
+	margin-top: 16px;;
+	
+}
+
+#submitLogin {
+	border-radius: 12px;
+	color: white;
+	font-weight: bold;
+	margin-left: 4px;
+}
+
+
+.logoText {
+	text-align: center;
+	float: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #F26D6D;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.text-right{
+	margin-top:51px;
+	position: relative;
+	left: -79px;
+	top: -10px;
+	color: gray;
+	font-size: 13px;
+}
+
+nav {
+	height: 90px;
+}
+
+#barraNavigazione input {
+	font-size: 15px;
+	border-radius: 7px;
+}
+
+.form-control {
+	width: 350px;
+}
+
+
+.form-group input {
+	border-radius: 18px;
+}
+
+form {
+	background-color: whitesmoke;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 16px; 
+}
+
+#form1 {
+	position: relative;
+	right: 50px;
+}
+
+#form1 .form-group, .radio, .move  {
+	position: relative;
+	left: 50px;
+}
+
+#form1 .move2 {
+	position: relative;
+	left: 103px;
+	bottom: 33px;
+}
+
+#form1 #sendForm {
+	position: relative;
+	bottom: 30px;
+	color:#F26D6D;
+	font-weight: bolder;
+}
+
+#form1 .lead {
+	font-family: 'Oswald', sans-serif;
+	margin-left: 42px;
+	position: relative;
+	top: 8px;
+	letter-spacing: 3px;
+	padding: 10px;
+}
+
+#ani1Par {
+	position: relative;
+	right: 231px;
+}
+
+#ani2Par {
+	position: relative;
+	right: 156px;
+}
+
+.selectMan {
+	background-color: #51BCDB;
+	width: 70px;
+	position: relative;
+	right: -5px;
+	border-radius: 100px;
+}
+
+.selectWoman {
+	background-color: pink;
+	width: 70px;
+	position: relative;
+	left: 68px;
+	border-radius: 50px;
+}
+
+#ani3Button {
+	display: none;
+	position: relative;
+	bottom: 80px;
+	left: 157px; 
+}
+
+.focusForm {
+	background-color: #000000;
+}
+
+#form1 input {
+	font-family:'Oswald';
+	color: #FF6600;
+}
+
+.desc {
+	font-size: 21px;
+    font-weight: bold;
+    width: 250px;
+    position: relative;
+    left: 566px;
+    top: 95px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+#hostess {
+	float: right;
+	position: relative;
+	top: 110px;
+	right: 45px;
+}
+
+#form1 {
+	margin-top: -62px;
+}
+

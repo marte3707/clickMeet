@@ -1,0 +1,155 @@
+body {
+	background-color: #BCCBF2;
+	font-family: 'Josefin Slab', serif;
+	margin: 0;
+ 	padding: 0;
+}
+
+.navbar {
+	padding: 0px; 
+	margin: 0px;
+}
+
+ul {
+	text-decoration: none;
+	height:53px;
+	font-weight: bold;
+	background-color: #45619D;	
+}
+
+ul.menu li a:link {
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	color: white;
+	background-color: #45619D;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+ul.menu li a:hover {
+	background-color:#000000;
+	color: #F5F5F5;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: block;
+	float: right;
+}
+
+
+.logo {
+	float: left;
+	margin-left: 25px;
+}
+
+.logoText {
+	text-align: center;
+	float: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
+	font-weight: bolder;
+	color: #F26D6D;
+	text-align: center;
+	margin-bottom: px;
+	margin-top: 10px;
+}
+
+.start {
+	margin-top: 85px;
+}
+
+.header {
+	text-align: center;
+	font-size: 44px;
+	color: #F26D6D;
+	font-family: "Luckiest Guy",cursive;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px rgba(1, 4, 5, 0.62);
+}
+
+.header-body-left .reg {
+	float: left;
+	font-size: 19px;
+	padding: 9px;
+	margin: 5px;
+	background-color: white;
+}
+
+.header-body-right .faceAccess {
+	float: right;
+	font-size: 19px;
+	border-style: ridge;
+	padding: 9px;
+	margin: 5px;
+	background-color: white;
+}
+
+.header-body-left {
+	margin-left: 180px;
+}
+
+.header-body-right{
+	margin-right: 350px ;
+}
+
+.header2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+form input {
+	padding: 5px;
+	display: inline-block;
+	margin: 3px;
+	width: 100%;
+	clear: both;
+}
+
+form {
+	width: 300px;
+	clear: both;
+}
+
+.loginMenu {
+	margin-right: 17px;
+	margin-top: 13px;
+}
+
+.loginMenu input {
+	border-style: outset;
+	border-radius: 7px;
+	width: 200px;
+	height: 20px;
+	clear: both;
+}
+
+.loginMenu label 
+{
+	display: inline-block;
+	width: 8px;
+	float: right;
+	clear: both;
+}
+
+.loginMenu #forgottenPassword {
+	position: relative;
+	top: 3px;
+	right: 0px;
+	left: 255px
+}
+
+#forgottenPassword a {
+	font-size: 14px;
+	margin-top: -5px;
+	background-color: #BCCBF2;
+}
